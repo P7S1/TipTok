@@ -10,12 +10,13 @@
 		DF755D152682D48100E0E581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D142682D48100E0E581 /* AppDelegate.m */; };
 		DF755D182682D48100E0E581 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D172682D48100E0E581 /* SceneDelegate.m */; };
 		DF755D1B2682D48100E0E581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D1A2682D48100E0E581 /* ViewController.m */; };
-		DF755D1E2682D48100E0E581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF755D1C2682D48100E0E581 /* Main.storyboard */; };
-		DF755D202682D48200E0E581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF755D1F2682D48200E0E581 /* Assets.xcassets */; };
 		DF755D232682D48200E0E581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF755D212682D48200E0E581 /* LaunchScreen.storyboard */; };
 		DF755D262682D48200E0E581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D252682D48200E0E581 /* main.m */; };
 		DF755D302682D48200E0E581 /* TipTokTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D2F2682D48200E0E581 /* TipTokTests.m */; };
 		DF755D3B2682D48200E0E581 /* TipTokUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D3A2682D48200E0E581 /* TipTokUITests.m */; };
+		DF755D4B2682D49300E0E581 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF755D482682D49300E0E581 /* MainViewController.m */; };
+		DF755D4C2682D49300E0E581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF755D492682D49300E0E581 /* Main.storyboard */; };
+		DF755D4E2682D4A600E0E581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF755D4D2682D4A600E0E581 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +44,6 @@
 		DF755D172682D48100E0E581 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DF755D192682D48100E0E581 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DF755D1A2682D48100E0E581 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF755D1D2682D48100E0E581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF755D1F2682D48200E0E581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF755D222682D48200E0E581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF755D242682D48200E0E581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF755D252682D48200E0E581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +53,10 @@
 		DF755D362682D48200E0E581 /* TipTokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF755D3A2682D48200E0E581 /* TipTokUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipTokUITests.m; sourceTree = "<group>"; };
 		DF755D3C2682D48200E0E581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF755D482682D49300E0E581 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DF755D492682D49300E0E581 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF755D4A2682D49300E0E581 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF755D4D2682D4A600E0E581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +111,12 @@
 				DF755D142682D48100E0E581 /* AppDelegate.m */,
 				DF755D162682D48100E0E581 /* SceneDelegate.h */,
 				DF755D172682D48100E0E581 /* SceneDelegate.m */,
+				DF755D492682D49300E0E581 /* Main.storyboard */,
+				DF755D4A2682D49300E0E581 /* MainViewController.h */,
+				DF755D482682D49300E0E581 /* MainViewController.m */,
 				DF755D192682D48100E0E581 /* ViewController.h */,
 				DF755D1A2682D48100E0E581 /* ViewController.m */,
-				DF755D1C2682D48100E0E581 /* Main.storyboard */,
-				DF755D1F2682D48200E0E581 /* Assets.xcassets */,
+				DF755D4D2682D4A600E0E581 /* Assets.xcassets */,
 				DF755D212682D48200E0E581 /* LaunchScreen.storyboard */,
 				DF755D242682D48200E0E581 /* Info.plist */,
 				DF755D252682D48200E0E581 /* main.m */,
@@ -240,8 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF755D232682D48200E0E581 /* LaunchScreen.storyboard in Resources */,
-				DF755D202682D48200E0E581 /* Assets.xcassets in Resources */,
-				DF755D1E2682D48100E0E581 /* Main.storyboard in Resources */,
+				DF755D4E2682D4A600E0E581 /* Assets.xcassets in Resources */,
+				DF755D4C2682D49300E0E581 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +274,7 @@
 				DF755D1B2682D48100E0E581 /* ViewController.m in Sources */,
 				DF755D152682D48100E0E581 /* AppDelegate.m in Sources */,
 				DF755D262682D48200E0E581 /* main.m in Sources */,
+				DF755D4B2682D49300E0E581 /* MainViewController.m in Sources */,
 				DF755D182682D48100E0E581 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +311,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF755D1C2682D48100E0E581 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF755D1D2682D48100E0E581 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF755D212682D48200E0E581 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
