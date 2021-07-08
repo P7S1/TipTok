@@ -16,6 +16,10 @@ The following **optional** features are implemented:
 * [x] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
+The following **optional but I forgot to mention** features that are are implemented:
+* [x] Falling emoji animation using Core Animation Emitter Layer
+* [x] All constraints are implemented and are done so programatically 
+
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
